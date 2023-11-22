@@ -1,0 +1,51 @@
+>>>Backend:
+
+Python 3.11.6
+Django framework
+flask is package
+
+>>>Frontend:
+
+HTML, JS, CSS: bootstrap 4
+
+>>>Database:
+mysql lite
+
+>>>Code editor
+VS code IDE
+
+>>>Commands
+pip install <package_name> (To install Python packages)
+django-admin startproject projectname (To start a project on django)
+
+the below commands are used to implement the changes made to the python file to reflect to the database
+python manage.py makemigrations
+python manage.py migrate
+
+python manage.py flush -y (to delete all data from database preserving the tables and relations)
+
+
+python manage.py createsuperuser (To create super user or say admin user aith all access)
+the datatype for saving file onto the database is BLOB
+
+>>>Theories
+ORM - Object relational Mapping
+Allows writing python classes that can be then mapped to be used with target language (for django it is database)
+
+Django uses Django template language which is similar to Jinja template language to give the developer flexibility of manipulating server response on client side, resulting in better User experience.
+Django Rest Framework (DRF) is used to build API using Django. DRF offers pre-build middlewares for fast and better development which is ready to use for productions and large scale projects. It also offer developers to integrate other APIs for example.  with GCP / Azure / AWS active directories which allows your application to have SSO authentication.
+
+>>>Helping resources: Links 
+
+https://blog.jetbrains.com/pycharm/2023/11/django-vs-flask-which-is-the-best-python-web-framework/#:~:text=Flask%20is%20a%20microframework%2C%20while,available%20out%20of%20the%20box.
+
+https://docs.djangoproject.com/en/4.2/topics/auth/#:~:text=Overview,to%20refer%20to%20both%20tasks.
+
+https://www.quora.com/How-does-Instagram-efficiently-store-all-of-their-imageshttps://docs.djangoproject.com/en/4.2/topics/auth/#:~:text=Overview,to%20refer%20to%20both%20tasks.
+
+>>>Future scope for python
+https://github.blog/2023-03-02-why-python-keeps-growing-explained/#:~:text=Python%20is%20a%20popular%20language,applications%20were%20built%20with%20Python.
+
+https://www.topcoder.com/thrive/articles/pyscript-python-frontend-framework#:~:text=PyScript%20framework%20allows%20developers%2Fprogrammers,the%20code%2Fprogram%20more%20accessible.
+
+https://www.reddit.com/r/django/comments/jtdw85/what_happens_when_django_receives_multiple/
